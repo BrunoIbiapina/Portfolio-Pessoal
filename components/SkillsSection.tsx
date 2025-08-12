@@ -5,6 +5,7 @@ import {
 } from "@/components/ui/card"
 import { LucideIcon, Zap } from "lucide-react"
 
+main
 export interface Skill {
   name: string
   level: number
@@ -12,10 +13,20 @@ export interface Skill {
   color: string
 }
 
+
 interface SkillsSectionProps {
+  /** Lista de habilidades a serem exibidas. */
   skills: Skill[]
 }
 
+/**
+ * Exibe um grid de habilidades com barra de progresso para cada tecnologia.
+ */
+=======
+interface SkillsSectionProps {
+  skills: Skill[]
+}
+main
 export default function SkillsSection({ skills }: SkillsSectionProps) {
   return (
     <section id="habilidades" className="py-20 px-4">

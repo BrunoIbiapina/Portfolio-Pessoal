@@ -11,6 +11,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Rocket, Github, Play, ExternalLink } from "lucide-react"
 
+
 export interface Project {
   id: number
   title: string
@@ -23,10 +24,24 @@ export interface Project {
   status: string
 }
 
+
+/**
+ * Props para o componente {@link FeaturedProjects}.
+ */
+interface FeaturedProjectsProps {
+  /** Lista de projetos a serem exibidos. */
+  projects: Project[]
+}
+
+/**
+ * Renderiza as seções de projetos em destaque e outros projetos.
+ */
+=======
 interface FeaturedProjectsProps {
   projects: Project[]
 }
 
+main
 export default function FeaturedProjects({ projects }: FeaturedProjectsProps) {
   return (
     <section id="projetos" className="py-20 px-4 bg-muted/30">
