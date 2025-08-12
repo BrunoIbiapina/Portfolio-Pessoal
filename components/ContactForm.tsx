@@ -22,6 +22,9 @@ import {
   Star,
 } from "lucide-react"
 
+/**
+ * Formulário de contato com informações e links sociais.
+ */
 export default function ContactForm() {
   return (
     <section id="contato" className="py-20 px-4 bg-muted/30">

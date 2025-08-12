@@ -36,6 +36,10 @@ import Image from "next/image"
 import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 
+/**
+ * Página principal do portfólio, responsável por montar as seções de projetos,
+ * habilidades e contato usando componentes especializados.
+ */
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("home")

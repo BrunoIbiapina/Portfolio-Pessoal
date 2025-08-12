@@ -7,6 +7,11 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 - **components/**: componentes reutilizáveis como `FeaturedProjects`, `SkillsSection` e `ContactForm`
 - **styles/**: arquivos de estilo baseados em Tailwind CSS
 
+## Componentes
+- **FeaturedProjects**: recebe uma lista de projetos e os separa entre destaques e demais trabalhos.
+- **SkillsSection**: exibe um grid de habilidades com barra de progresso e ícone para cada tecnologia.
+- **ContactForm**: reúne formulário de contato, informações pessoais e links para redes sociais.
+
 ## Scripts
 Execute os comandos abaixo para desenvolver, testar e construir o projeto:
 
